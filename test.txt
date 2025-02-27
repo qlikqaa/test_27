@@ -1,0 +1,102 @@
+{
+  "id": "f256b3e4-03e0-4f74-ae46-a4d43882ee5d",
+  "name": "Organization wide knowledgebase",
+  "tags": [
+    "Red",
+    "Sales"
+  ],
+  "ownerId": "507f191e810c19729de860ea",
+  "spaceId": "507f191e810c19729de860ea",
+  "tenantId": "507f191e810c19729de860ea",
+  "createdAt": "2021-10-02T14:20:50.52Z",
+  "createdBy": "507f191e810c19729de860ea",
+  "updatedAt": "2021-10-02T14:20:50.52Z",
+  "updatedBy": "507f191e810c19729de860ea",
+  "description": "This knowledgebase is used for...",
+  "lastIndexedAt": "2021-10-02T14:20:50.52Z",
+  "contentSummary": {
+    "fileSize": 42,
+    "textSize": 42,
+    "fileCount": 42,
+    "effectivePages": 42
+  },
+  "selectedErrorsCount": 10,
+  "datasources": [
+    {
+      "id": "f256b3e4-03e0-4f74-ae46-a4d43882ee5d",
+      "name": "string",
+      "type": "file",
+      "spaceId": "507f191e810c19729de860ea",
+      "chunking": {
+        "size": 1024,
+        "type": "recursive",
+        "overlap": 20,
+        "separators": [
+          "\n",
+          ".",
+          " "
+        ],
+        "keepSeparator": false
+      },
+      "syncInfo": {
+        "status": "neverIndexed",
+        "startedAt": "2021-10-02T14:20:50.52Z",
+        "lastSyncId": "f256b3e4-03e0-4f74-ae46-a4d43882ee5d",
+        "completedAt": "2021-10-02T14:20:50.52Z"
+      },
+      "fileConfig": {
+        "files": [
+          "string"
+        ],
+        "scope": {
+          "depth": 1,
+          "maxSize": 1000000,
+          "extensions": [
+            "pdf"
+          ],
+          "maxFilesTotal": 50,
+          "modifiedAfter": "2021-10-02T14:20:50.52Z",
+          "maxFilesPerFolder": 100
+        },
+        "folder": "folderA/folderB",
+        "userId": "507f191e810c19729de860ea",
+        "connectionId": "f256b3e4-03e0-4f74-ae46-a4d43882ee5d",
+        "crawlPatterns": [
+          {
+            "type": "include",
+            "pattern": "(.*)example(.*)"
+          }
+        ]
+      },
+      "sourceCount": 10,
+      "crawlerConfig": {
+        "url": "http://www.example.com",
+        "scope": {
+          "depth": 1,
+          "scope": "all",
+          "maxSize": 1000000,
+          "maxLinks": 100,
+          "downloadFiles": false
+        },
+        "crawlPatterns": [
+          {
+            "type": "include",
+            "pattern": "(.*)example(.*)"
+          }
+        ],
+        "indexPatterns": [
+          {
+            "type": "include",
+            "pattern": "(.*)example(.*)"
+          }
+        ]
+      },
+      "contentSummary": {
+        "fileSize": 42,
+        "textSize": 42,
+        "fileCount": 42,
+        "effectivePages": 42
+      }
+    }
+  ]
+}
